@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prenotazioni</title>
+    <link rel="stylesheet" href="prenotazioni.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top-bar"></div>
+        <div class="banner">
+            <div class="navbar">
+                <img src="Logo.jpg" class="logo">
+                <ul>
+                    <li><a href="index.html">Menù</a></li>
+                    <li><a href="prodotti.html">Prodotti</a></li>
+                    <li><a href="contatti.html">Contatti</a></li>
+                    <li><a href="mappa.html">Mappa</a></li>
+                    <li><a href="prenotazioni.html">Prenotazioni</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <h1>PRENOTAZIONI</h1>
+            <form action="prenotazioni.php" method="post">
+                <div class="form-group">
+                    <h1 for="name" style="color: black;">Nome:</h1>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <h1 for="email" style="color: black;">Email:</h1>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <h1 for="content" style="color: black;">Contenuto della prenotazione:</h1>
+                    <textarea id="content" name="content" rows="4" required></textarea>
+                </div>
+                <button type="submit">Invia Prenotazione</button>
+            </form>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
